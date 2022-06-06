@@ -48,7 +48,7 @@ console.log(longWord2);
 console.log("Bài 3:");
 var randomNumber = (a, b) => {
   var numberRandom = Math.floor(Math.random() * (b - a + 1)) + a
-  if (numberRandom%2===0){
+  if (numberRandom%2!=0){
     return numberRandom
   }
   return randomNumber(a, b)
